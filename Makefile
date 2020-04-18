@@ -16,7 +16,7 @@ OBJS=$(patsubst $(PATHS)%,$(PATHO)%,$(SOURCES:.c=.o))
 CLEAN=rm -rf
 # Simulator
 SIMAVRDIR=ryan
-SIMAVR=/usr/local/Cellar/simavr/HEAD-ba72122
+SIMAVR=/usr/local/Cellar/simavr/HEAD-ba72122/bin/simavr
 
 # Compiler
 AVR=avr-gcc
